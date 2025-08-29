@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lught Bot WhatsApp</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+    header {
+      background: #25D366; /* warna khas WhatsApp */
+      color: white;
+      padding: 15px 50px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    header h1 {
+      margin: 0;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin: 0 15px;
+      font-weight: bold;
+    }
+    .hero {
+      background: url("https://i.postimg.cc/G3JbD0fh/Picsart-25-08-29-16-18-54-516.jpg") no-repeat center center/cover;
+      color: white;
+      height: 400px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-shadow: 2px 2px 5px black;
+    }
+    .hero h2 {
+      font-size: 35px;
+    }
+    .section {
+      padding: 50px;
+      text-align: center;
+    }
+    .programs {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+    .card {
+      background: #f4f4f4;
+      padding: 20px;
+      border-radius: 12px;
+      width: 250px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      transition: 0.3s;
+      cursor: pointer;
+    }
+    .card:hover {
+      transform: scale(1.05);
+      background: #e6e6e6;
+    }
+    footer {
+      background: #25D366;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 50px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>🤖 Lught Bot WhatsApp</h1>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#tentang">Tentang</a>
+      <a href="#fitur">Fitur</a>
+      <a href="#kontak">Kontak</a>
+    </nav>
+  </header>
+
+  <div class="hero">
+    <h2>Selamat Datang di Lught Bot WhatsApp</h2>
+    <p>Bot serbaguna untuk kebutuhanmu</p>
+  </div>
+
+  <section id="tentang" class="section">
+    <h2>Tentang Kami</h2>
+    <p>Kami adalah sekumpulan orang yang membuat Bot WhatsApp agar Anda bisa memanfaatkannya untuk berbagai keperluan.</p>
+  </section>
+
+  <section id="fitur" class="section">
+    <h2>Fitur Unggulan</h2>
+    <div class="programs">
+      <div class="card" onclick="alert('Brat Stiker: Menjadikan kata ke stiker')">
+        <h3>Brat Stiker</h3>
+        <p>Menjadikan kata ke stiker.</p>
+      </div>
+      <div class="card" onclick="alert('Menfess: Mengirimkan kata kata mu ke orang tersayang atau tercinta')">
+        <h3>Menfess</h3>
+        <p>Mengirimkan kata-kata mu ke orang tersayang atau tercinta.</p>
+      </div>
+      <div class="card" onclick="alert('HD Foto: Menjernihkan foto mu untuk resolusi yang lebih baik')">
+        <h3>HD Foto</h3>
+        <p>Menjernihkan foto mu untuk resolusi yang lebih baik.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="kontak" class="section">
+    <h2>Kontak Kami</h2>
+    <p>Email: buatakunbarubuatakun33@gmail.com</p>
+    <p>Telp/WA: 0895347415891</p>
+    <p><a href="https://wa.me/62895347415891" target="_blank">Chat WhatsApp</a></p>
+  </section>
+
+  <footer>
+    <p>© 2025 Lught Bot | All Rights Reserved</p>
+  </footer>
+</body>
+</html>
